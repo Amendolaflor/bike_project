@@ -107,7 +107,7 @@ input[class="form-input"] {
 
   font-size: 16px;
   font-family: "Abel", sans-serif;
-  color: #d3e0ea;
+  color: #276678;
 
   outline: none;
   border: none;
@@ -165,7 +165,7 @@ button {
 
 /*     Sign Up button  */
 .sign-up {
-  background: #276678;
+  background: #d3e0ea;
   text-align: center;
 }
 
