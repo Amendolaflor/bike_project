@@ -741,6 +741,14 @@ main {
     background-color:  #126E82;;
     color: white;
 }
+.checkout  {
+    margin: 10px;
+}
+.checkout:hover {
+    background-color:  #126E82;;
+    color: white;
+    
+}
 
 
   /* FOOTER */
