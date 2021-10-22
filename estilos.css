@@ -78,25 +78,7 @@ header p {
   padding: 14.5px 0px 15px 9px;
   border-radius: 5px 0px 0px 5px;
 }
-
-/* Show/hide password Font Icon */
-#eye {
-  background: #fff;
-  color: #333;
-
-  margin: 5.9px 0 0 0;
-  margin-left: -20px;
-  padding: 15px 9px 19px 0px;
-  border-radius: 0px 5px 5px 0px;
-
-  float: right;
-  position: relative;
-  right: 1%;
-  top: -0.2%;
-  z-index: 5;
-
-  cursor: pointer;
-}
+/* (falta poner icono ojito en el password)
 /* inputs form  */
 input[class="form-input"] {
   width: 240px;
@@ -178,12 +160,4 @@ button:hover {
 /* buttons hover Animation */
 button:hover {
   animation: ani9 0.4s ease-in-out infinite alternate;
-}
-@keyframes ani9 {
-  0% {
-    transform: translateY(3px);
-  }
-  100% {
-    transform: translateY(5px);
-  }
 }
