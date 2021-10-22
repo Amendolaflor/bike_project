@@ -79,6 +79,7 @@ header p {
   border-radius: 5px 0px 0px 5px;
 }
 /* (falta poner icono ojito en el password)
+
 /* inputs form  */
 input[class="form-input"] {
   width: 240px;
@@ -89,7 +90,7 @@ input[class="form-input"] {
 
   font-size: 16px;
   font-family: "Abel", sans-serif;
-  color: #276678;
+  color: black;
 
   outline: none;
   border: none;
@@ -98,7 +99,7 @@ input[class="form-input"] {
   transition: 0.2s linear;
 }
 input[id="txt-input"] {
-  width: 250px;
+  width: 240px;
 }
 /* focus  */
 input:focus {
@@ -115,7 +116,7 @@ button {
   display: inline-block;
   color: #252537;
 
-  width: 280px;
+  width: 245px;
   height: 50px;
 
   padding: 0 20px;
@@ -134,10 +135,10 @@ button {
 }
 /* Submits */
 .submits {
-  width: 48%;
+  width: 40%;
   display: inline-block;
   float: none;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 /*       Forgot Password button FAF3DD  */
