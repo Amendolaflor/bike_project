@@ -78,28 +78,11 @@ header p {
   padding: 14.5px 0px 15px 9px;
   border-radius: 5px 0px 0px 5px;
 }
+/* (falta poner icono ojito en el password)
 
-/* Show/hide password Font Icon */
-#eye {
-  background: #fff;
-  color: #333;
-
-  margin: 5.9px 0 0 0;
-  margin-left: -20px;
-  padding: 15px 9px 19px 0px;
-  border-radius: 0px 5px 5px 0px;
-
-  float: right;
-  position: relative;
-  right: 1%;
-  top: -0.2%;
-  z-index: 5;
-
-  cursor: pointer;
-}
 /* inputs form  */
 input[class="form-input"] {
-  width: 100%;
+  width: 240px;
   height: 50px;
 
   margin-top: 2%;
@@ -107,7 +90,7 @@ input[class="form-input"] {
 
   font-size: 16px;
   font-family: "Abel", sans-serif;
-  color: #276678;
+  color: black;
 
   outline: none;
   border: none;
@@ -116,7 +99,7 @@ input[class="form-input"] {
   transition: 0.2s linear;
 }
 input[id="txt-input"] {
-  width: 100%;
+  width: 240px;
 }
 /* focus  */
 input:focus {
@@ -131,13 +114,18 @@ input:focus {
 /* buttons  */
 button {
   display: inline-block;
-  width: 280px;
+  color: #252537;
+
+  width: 245px;
   height: 50px;
+
   padding: 0 20px;
-  background: #d3e0ea;
+  background: #fff;
   border-radius: 5px;
+
   outline: none;
-  border: #276678 solid 1px;
+  border: none;
+
   cursor: pointer;
   text-align: center;
   transition: all 0.2s linear;
@@ -146,32 +134,22 @@ button {
   letter-spacing: 0.05em;
 }
 /* Submits */
-/* .submits {
-  width: 48%;
-  display: inline-block;
-  float: none;
-  margin-left: 2%;
-} */
-
 .submits {
-  width: 50%;
+  width: 40%;
   display: inline-block;
   float: none;
-  margin: 20%;
-  margin-top: 3%;
+  margin-left: 5%;
 }
 
 /*       Forgot Password button FAF3DD  */
 .frgt-pass {
   background: transparent;
-  border: none;
 }
 
 /*     Sign Up button  */
 .sign-up {
   background: #d3e0ea;
   text-align: center;
-  border: #276678 solid 1px;
 }
 
 /* buttons hover */
@@ -183,12 +161,4 @@ button:hover {
 /* buttons hover Animation */
 button:hover {
   animation: ani9 0.4s ease-in-out infinite alternate;
-}
-@keyframes ani9 {
-  0% {
-    transform: translateY(3px);
-  }
-  100% {
-    transform: translateY(5px);
-  }
 }
