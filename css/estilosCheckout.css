@@ -113,6 +113,10 @@ button:hover {
     color: #F6F5F5;
     transform: scale(1.05)
     }
+
+a {
+    color: #D3E0EA;
+}
     
 input:focus , button:focus {
     outline: none;
